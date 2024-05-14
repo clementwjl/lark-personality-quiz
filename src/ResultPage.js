@@ -76,7 +76,7 @@ const ResultPage = ({ mbtiType, restartQuiz }) => {
         console.log('Image Name:', imageName); // Add this line to log the image name
 
         // Construct the image source
-        const imageSrc = `/results/${imageName}.jpg`;
+        const imageSrc = process.env.PUBLIC_URL + `/results/${imageName}.jpg`;
         console.log('Image Src:', imageSrc); // Log the image source
 
 
