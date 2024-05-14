@@ -32,23 +32,29 @@ const ResultPage = ({ mbtiType, restartQuiz }) => {
     const downloadImage = () => {
         // Get the image name based on the provided MBTI type
         const imageName = mbtiImageMapping[mbtiType];
-        
+    
         // Construct the image source
-        const imageSrc = `/results/${imageName}.jpg`;
-        
-        // Create a link element to trigger the download
-        const link = document.createElement('a');
-        link.href = imageSrc;
-        link.download = `${imageName}_result.png`;
+        const imageSrc = process.env.PUBLIC_URL + `/results/${imageName}.jpg`;
     
-        // Append the link to the document body
-        document.body.appendChild(link);
+        // Fetch the image
+        fetch(imageSrc)
+            .then(response => response.blob())
+            .then(blob => {
+                // Create a temporary link element
+                const link = document.createElement('a');
+                link.href = URL.createObjectURL(blob);
+                link.download = `${imageName}_result.jpg`;
     
-        // Simulate a click on the link to trigger the download
-        link.click();
+                // Simulate a click on the link to trigger the download
+                link.click();
     
-        // Remove the link from the document body after download
-        document.body.removeChild(link);
+                // Clean up
+                URL.revokeObjectURL(link.href);
+            })
+            .catch(error => {
+                // Handle any errors
+                console.error('Error downloading image:', error);
+            });
     };
     
 
