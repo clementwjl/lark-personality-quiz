@@ -23,18 +23,18 @@ function App() {
   ];
 
   const questions = [
-    { question: "Q1/12: It's time for the company's performance review cycle, to lighten the mood, you:", optionA: "Organize a 'Survivor: Office Edition' game, with the prize being getting an excellent grade.", optionB: "Create personalised survivor kits with snacks and a 'Keep Calm' playlist."},
-    { question: "Q2/12: When faced with revamping the office break room, you:", optionA: "Sketch out a design for a futuristic, tech-savvy lounge complete with interactive screens and a drone-delivery snack service.", optionB: "Opt for a cozy, rustic vibe with comfy couches, a coffee bar featuring local blends, and a mural wall showcasing employee artwork." },
-    { question: "Q3/12: Your colleague outrageously claims credit for your idea in a meeting. You:", optionA: "Dramatically reveal yourself as the true creator in the next meeting.", optionB: "Create a support group for idea adopters to sympathize with those whose ideas were stolen." },
-    { question: "Q4/12: You've been assigned to plan the office holiday party. Do you:", optionA: "Throw a 'Choose Your Own Adventure' party where attendees vote on activities throughout the night.", optionB: "Create a stupidly detailed itinerary down to the minute, complete with color-coded schedules and contingency plans." },
-    { question: "Q5/12: Your colleague working from home forgot to mute himself during the All-Hands and was talking about his recent pantry raids. Your instinct:", optionA: "Kickstart a top-5 pantry snacks chain message in the meeting chat.", optionB: "Internally pray for a snack-induced distraction at home to steer the meeting back to the agenda." },
-    { question: "Q6/12: You've been assigned an urgent high-stakes assignment, do you:", optionA: "Book a meeting room and doodle your thoughts on the whiteboard to unleash your problem-solving and imaginative prowess.", optionB: "Organize your workspace meticulously with colorful sticky notes along with your favorite motivational mug in order to get started." },
-    { question: "Q7/12: You come face to face with a heated debate at a work meeting. You decide to:", optionA: "Whip up a whistle and moderate the meeting with timeouts and slow-motion replays of the arguments.", optionB: "Introduce a hug it out rule where every disagreement must end with a hug and a compliment."},
-    { question: "Q8/12: Your company suddenly announces that a five-day Return to Office (RTO) arrangement begins next Monday. You:", optionA: "Panic book a midnight flight on Friday to a beach club in Hawaii to enjoy your final WFH days.", optionB: "Panic as this wasn't stated in my contract, but go on to set my daily 8am alarms ahead of time." },
-    { question: "Q9/12: You’ve been spontaneously assigned to lead a team-building activity for the coming townhall, you decide to:", optionA: "Organize a company-wide scavenger hunt, where teams compete to find hidden cash bonuses and extra paid time off.", optionB: "Open your HR portal and begin plotting your hospitalization leave to escape the need to plan the activity." },
-    { question: "Q10/12: You ended off a meeting with your supervisor who left you with a cryptic message: 'Embrace the shadows, for therein lies the light.' Do you:", optionA: "Head to your work bestie's desk and have a 30 minute back and forth of what your supervisor was insinuating or suggesting. ", optionB: "Jot down the quote on a sticky note and add it to your post-it collection of work-learning reminders at your desk." },
-    { question: "Q11/12: You see your co-workers visibly upset because they make a major work mistake. You decide to:", optionA: "Draw a flowchart explaining their emotions and potential solutions.", optionB: "Start an impromptu group hug session complete with motivational dance moves." },
-    { question: "Q12/12: You receive an alarming email from your supervisor: the major project you've dedicated the past six months to is in danger of being derailed, putting your job on the line. After a day of pondering, you:", optionA: "Activate the LinkedIn Premium subscription you've been saving and start swiping on LinkedIn Jobs.", optionB: "Take it as a sign from the universe to embark on a full-time career as a TikTok influencer." },
+    { question: "Q1/12: It's time for the company's performance review cycle, to lighten the mood, you:", optionA: "Organize a 'Survivor: Office Edition' game, with the prize being an excellent grade.", optionB: "Create personalised survivor kits with snacks and a 'Keep Calm' playlist."},
+    { question: "Q2/12: When faced with revamping the office break room, you:", optionA: "Envision a futuristic, tech-savvy lounge complete with interactive screens and a drone-delivery snack service.", optionB: "Opt for a cozy setup with comfortable seating, a coffee bar with local blends, and get colleagues to vote for future upgrades."},
+    { question: "Q3/12: Your colleague outrageously claims credit for your idea in a meeting. You:", optionA: "Calmly present documented evidence in the next meeting to subtly prove that the initial idea was yours.", optionB: "Create a support group for idea adopters to sympathize with those whose ideas were stolen." },
+    { question: "Q4/12: You've been assigned to plan the office holiday party. Do you:", optionA: "Organize a 'Choose Your Own Adventure' party where with multiple activity options and let attendees choose what they want to do in the moment.", optionB: "Plan a fun, themed event with a detailed agenda, including games, performances, and timed surprises to keep everyone entertained ending off the day with a highlight."},
+    { question: "Q5/12: Your colleague working from home forgot to mute himself during the All-Hands and was talking about his recent pantry raids. Your instinct:", optionA: "Start a light-hearted chat thread about favorite pantry snacks to subtly alert your colleague that he's unmuted.", optionB: "Discreetly message your colleague to let him know he's unmuted, hoping he mutes himself quickly." },
+    { question: "Q6/12: You've been assigned an urgent high-stakes assignment, do you:", optionA: "Book a meeting room with your team, doodle your thoughts on the whiteboard, and kickstart a brainstorming session.", optionB: "Head back to your desk, gather your thoughts, and dive into detailed research on past case studies before approaching the problem head-on with your team." },
+    { question: "Q7/12: You come face to face with a heated debate at a work meeting. You decide to:", optionA: "Take control and moderate the discussion, setting clear rules and time limits to ensure a logical and fair debate.", optionB: "Facilitate a sharing session where everyone feels heard. Encourage participants to reflect on each other's viewpoints, fostering mutual understanding."},
+    { question: "Q8/12: Your company suddenly announces that a five-day Return to Office (RTO) arrangement begins next Monday. You:", optionA: "Panic book a last-minute flight to a randomly chosen country and indulge in spontaneous adventures to make the most of your final WFH days.", optionB: "Take a deep breath and start planning an epic weekend adventure — book a cozy cabin in the mountains, pack your schedule with fun activities, don't forget to bring along a book!" },
+    { question: "Q9/12: You’ve been spontaneously assigned to lead a team-building activity for the coming townhall, you decide to:", optionA: "Organize a company-wide scavenger hunt, where teams compete to find hidden cash bonuses and extra paid time off.", optionB: "Plan an engaging virtual game of 'Who Wants to Be a Millionaire?' where individuals compete across different categories to earn cash prizes." },
+    { question: "Q10/12: You ended off a meeting with your supervisor who left you with a cryptic message: 'Embrace the shadows, for therein lies the light.' Do you:", optionA: "Head to your work bestie's desk and brainstorm for 30 minutes about the deeper meaning behind your supervisor's cryptic message.", optionB: "Write down the quote and brainstorm practical steps with your team to address any potential issues or insights it might hint at." },
+    { question: "Q11/12: You see your co-workers visibly upset because they make a major work mistake. You decide to:", optionA: "Draw a flowchart explaining their emotions and potential solutions on how they can prevent such issues from happening again.", optionB: "Organize a spontaneous group hug and follow it with a fun, silly dance to lift everyone's spirits." },
+    { question: "Q12/12: You receive an alarming email from your supervisor: the major project you've dedicated the past six months to is in danger of being derailed, putting your job on the line. After a day of pondering, you:", optionA: "Take it as a sign from the universe and consider embarking on your dream career whether it's a zoo-keeper or a full-time TikTok travel influencer.", optionB: "Activate the LinkedIn Premium subscription you've been saving and start a LinkedIn Jobs checklist of potential job opportunities you can pursue." },
   ];
 
   const displayNextQuestion = (selectedOption) => {
@@ -83,6 +83,8 @@ function App() {
   const handleQuizCompletion = () => {
     setMbtiType(calculateMBTI());
     setShowResultsPage(true);
+    setCurrentQuestionIndex(prevIndex => prevIndex + 1);
+    
   };
 
   useEffect(() => {
@@ -94,10 +96,12 @@ function App() {
       // Set the background image URL based on the current question index
       const imageUrl = svgUrls[`illus${currentQuestionIndex}`];
       setBackgroundImage(`url("${imageUrl}")`);
+    } else if (currentQuestionIndex == questions.length + 1) {
+      const fillerPageUrl = svgUrls["startpage"];
+      setBackgroundImage(`url("${fillerPageUrl}")`);
     } else {
       // If it's not the start page or a question page, set the background to the start page
-      const startPageUrl = svgUrls["startpage"];
-      setBackgroundImage(`url("${startPageUrl}")`);
+      setBackgroundImage('linear-gradient(180deg, rgba(242, 245, 255, 0.7) 0%, rgba(242, 245, 255, 1) 100%)');
     }
   }, [currentQuestionIndex, questions.length, svgUrls]);
 
