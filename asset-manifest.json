@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lark-personality-quiz/static/css/main.2ab1775e.css",
-    "main.js": "/lark-personality-quiz/static/js/main.f1ee5570.js",
+    "main.css": "/lark-personality-quiz/static/css/main.4d9ea7d0.css",
+    "main.js": "/lark-personality-quiz/static/js/main.ef2d24b3.js",
     "static/js/453.2bfa26e5.chunk.js": "/lark-personality-quiz/static/js/453.2bfa26e5.chunk.js",
     "static/media/Gilroy-Light.ttf": "/lark-personality-quiz/static/media/Gilroy-Light.1822a291dd62fe2cca72.ttf",
     "static/media/Gilroy-Regular.ttf": "/lark-personality-quiz/static/media/Gilroy-Regular.5b89a8df3b17dccdb73f.ttf",
@@ -9,12 +9,12 @@
     "static/media/Gilroy-SemiBold.ttf": "/lark-personality-quiz/static/media/Gilroy-SemiBold.07b9100a72fe7d46d20a.ttf",
     "static/media/Gilroy-Bold.ttf": "/lark-personality-quiz/static/media/Gilroy-Bold.ca49f7658c4eaac78b6d.ttf",
     "index.html": "/lark-personality-quiz/index.html",
-    "main.2ab1775e.css.map": "/lark-personality-quiz/static/css/main.2ab1775e.css.map",
-    "main.f1ee5570.js.map": "/lark-personality-quiz/static/js/main.f1ee5570.js.map",
+    "main.4d9ea7d0.css.map": "/lark-personality-quiz/static/css/main.4d9ea7d0.css.map",
+    "main.ef2d24b3.js.map": "/lark-personality-quiz/static/js/main.ef2d24b3.js.map",
     "453.2bfa26e5.chunk.js.map": "/lark-personality-quiz/static/js/453.2bfa26e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ab1775e.css",
-    "static/js/main.f1ee5570.js"
+    "static/css/main.4d9ea7d0.css",
+    "static/js/main.ef2d24b3.js"
   ]
 }
